@@ -1,0 +1,23 @@
+{
+  "name": "webpack-app",
+  "version": "1.0.0",
+  "description": "webpack Basics",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanjuArya/webpack-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanjuArya/webpack-app/issues"
+  },
+  "homepage": "https://github.com/SanjuArya/webpack-app#readme",
+  "devDependencies": {
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6"
+  }
+}
