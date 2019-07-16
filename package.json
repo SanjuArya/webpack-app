@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/SanjuArya/webpack-app#readme",
   "devDependencies": {
+    "css-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.6"
   }

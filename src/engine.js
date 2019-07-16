@@ -1,5 +1,6 @@
-import { Sanju } from './Sanju'
-import { Deepu } from './Deepu'
-import { Suraj } from './Suraj'
+import { Sanju } from './js/Sanju'
+import { Deepu } from './js/Deepu'
+import { Suraj } from './js/Suraj'
+import css from './css/style.css'
 
-console.log( Sanju(), Deepu(), Suraj() )
+document.write( `${ Sanju() } ${ Deepu() } ${ Suraj() }` )
