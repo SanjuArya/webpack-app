@@ -4,7 +4,8 @@
   "description": "webpack Basics",
   "main": "index.js",
   "scripts": {
-    "webpack": "webpack"
+    "start": "webpack-dev-server --config config.development.js --open",
+    "build": "webpack --config config.production.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,8 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.35.3",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1"
   }
 }

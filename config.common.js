@@ -3,13 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 
 module.exports = {
-    mode: 'development',
     entry: './src/engine.js',
-    output: {
-        filename: 'app.[contentHash].js',
-        path: path.resolve(__dirname, 'app')
-    },
-
+    
     module: {
         rules: [
             {
