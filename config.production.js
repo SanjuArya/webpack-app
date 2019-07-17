@@ -8,7 +8,7 @@ module.exports = merge( commom, {
     mode: 'production',
     
     output: {
-        filename: 'app.[contentHash].js',
+        filename: '[name].[contentHash].js',
         path: path.resolve(__dirname, 'app')
     },
 

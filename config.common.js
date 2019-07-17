@@ -2,7 +2,10 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-    entry: './src/engine.js',
+    entry: {
+        app: './src/engine.js',
+        vendor: './src/vendor.js'
+    },
 
     module: {
         rules: [
