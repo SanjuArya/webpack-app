@@ -1,6 +1,7 @@
 const path = require('path')
 const merge = require('webpack-merge') //To merge config.common.js with this config file
 const commom = require('./config.common')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 
 module.exports = merge( commom, {
@@ -9,5 +10,9 @@ module.exports = merge( commom, {
     output: {
         filename: 'app.[contentHash].js',
         path: path.resolve(__dirname, 'app')
-    }
+    },
+
+    plugins: [
+        new CleanWebpackPlugin()
+    ]
 })
