@@ -6,7 +6,7 @@ module.exports = merge( commom, {
     mode: 'development',
 
     output: {
-        filename: 'app.js',
+        filename: '[name].js',
         path: path.resolve(__dirname, 'app')
     }
 })
